@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout" layout:decorator="web_template">
+<head>
+<title>Produk</title>
+</head>
+<div layout:fragment="breadcrumbs">
+	<!-- BEGIN BREADCRUMBS -->
+	<div class="row breadcrumbs margin-bottom-40">
+		<div class="container">
+			<div class="col-md-4 col-sm-4">
+				<h1>Produk</h1>
+			</div>
+			<div class="col-md-8 col-sm-8">
+				<ul class="pull-right breadcrumb">
+					<li><a th:th:href="@{/home}">Home</a></li>
+					<li class="active">Produk</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- END BREADCRUMBS -->
+</div>
+
+<div layout:fragment="content">
+	<!-- BEGIN CONTAINER -->
+	<div class="container min-hight">
+
+		<!-- BEGIN PRICING OPTION2 -->
+		<div class="row margin-bottom-40">
+			<div class="col-md-3">
+				<div class="pricing-table">
+					<h3>Basic</h3>
+					<div class="desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia.</div>
+					<ul>
+						<li><i class="icon-angle-right"></i> 10 Email Accounts</li>
+						<li><i class="icon-angle-right"></i> 10 User Accounts</li>
+						<li><i class="icon-angle-right"></i> 100 GB Storage</li>
+						<li><i class="icon-angle-right"></i> 24X7 Support</li>
+						<li>&nbsp;</li>
+						<li>&nbsp;</li>
+						<li>&nbsp;</li>
+					</ul>
+					<div class="rate">
+						<div class="price">
+							<div class="currency ">
+								$<br /> Monthly
+							</div>
+							<div class="amount ">99</div>
+						</div>
+						<a th:href="@{/signup}" class="btn theme-btn">Sign Up</a>
+					</div>
+				</div>
+			</div>
+			<div class="spance10 visible-phone"></div>
+			<div class="col-md-3">
+				<div class="pricing-table">
+					<h3>Standard</h3>
+					<div class="desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia.</div>
+					<ul>
+						<li><i class="icon-angle-right"></i> 100 Email Accounts</li>
+						<li><i class="icon-angle-right"></i> 100 User Accounts</li>
+						<li><i class="icon-angle-right"></i> 1 TB Storage</li>
+						<li><i class="icon-angle-right"></i> 24X7 Support</li>
+						<li><i class="icon-angle-right"></i> Full Backup</li>
+						<li><i class="icon-angle-right"></i> Free Setup</li>
+						<li>&nbsp;</li>
+					</ul>
+					<div class="rate">
+						<div class="price">
+							<div class="currency ">
+								$<br /> Monthly
+							</div>
+							<div class="amount ">299</div>
+						</div>
+						<a th:href="@{/signup}" class="btn theme-btn">Sign Up</a>
+					</div>
+				</div>
+			</div>
+			<div class="spance10 visible-phone"></div>
+			<div class="col-md-3">
+				<div class="pricing-table">
+					<h3>Professional</h3>
+					<div class="desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia.</div>
+					<ul>
+						<li><i class="icon-angle-right"></i> Unlimited Email Accounts</li>
+						<li><i class="icon-angle-right"></i> Unlimited User Accounts</li>
+						<li><i class="icon-angle-right"></i> 10 TB Storage</li>
+						<li><i class="icon-angle-right"></i> 24X7 Support</li>
+						<li><i class="icon-angle-right"></i> Full Backup</li>
+						<li><i class="icon-angle-right"></i> Free Setup</li>
+						<li><i class="icon-angle-right"></i> Free CDN</li>
+					</ul>
+					<div class="rate">
+						<div class="price">
+							<div class="currency ">
+								$<br /> Monthly
+							</div>
+							<div class="amount ">399</div>
+						</div>
+						<a th:href="@{/signup}" class="btn theme-btn">Sign Up</a>
+					</div>
+				</div>
+			</div>
+			<div class="spance10 visible-phone"></div>
+			<div class="col-md-3">
+				<div class="pricing-table">
+					<h3>Enterprise</h3>
+					<div class="desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia.</div>
+					<ul>
+						<li><i class="icon-angle-right"></i> Unlimited Email Accounts</li>
+						<li><i class="icon-angle-right"></i> Unlimited User Accounts</li>
+						<li><i class="icon-angle-right"></i> Unlimited Storage</li>
+						<li><i class="icon-angle-right"></i> 24X7 Support</li>
+						<li><i class="icon-angle-right"></i> Full Backup</li>
+						<li><i class="icon-angle-right"></i> Free Setup</li>
+						<li><i class="icon-angle-right"></i> Free CDN</li>
+					</ul>
+					<div class="rate">
+						<div class="price">
+							<div class="currency ">
+								$<br /> Monthly
+							</div>
+							<div class="amount ">999</div>
+						</div>
+						<a th:href="@{/signup}" class="btn theme-btn">Sign Up</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END PRICING OPTION2 -->
+
+	</div>
+	<!-- END CONTAINER -->
+</div>
+</html>
